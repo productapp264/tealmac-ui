@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Licence keys, billing and anything private
+    url: mailto:hello@tealmac.com
+    about: Email us. Please never post a licence key in an issue.
+  - name: Docs and guides
+    url: https://ui.tealmac.com/docs
+    about: Installation, theming, Pro setup and the MCP server.

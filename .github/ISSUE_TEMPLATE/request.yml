@@ -1,0 +1,18 @@
+name: Item request
+description: A component, block, template or theme you would like
+labels: [request]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind
+      options: [Component, Block, Template, Chart, Theme, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What should it do?
+      description: A short description, and a link to an example if you have one.
+    validations:
+      required: true

@@ -1,0 +1,35 @@
+name: Bug report
+description: Something is broken in an item or on ui.tealmac.com
+labels: [bug]
+body:
+  - type: input
+    id: item
+    attributes:
+      label: Item or page
+      description: The item name or the page URL.
+      placeholder: "@tealmac/login-01 or https://ui.tealmac.com/docs/components/button"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. ...\n2. ...\n3. ..."
+  - type: input
+    id: env
+    attributes:
+      label: Environment
+      placeholder: "React 19, Next.js 16, Tailwind 4.1, Chrome 141, macOS"
+  - type: checkboxes
+    id: key
+    attributes:
+      label: Privacy
+      options:
+        - label: I have not included a licence key in this issue.
+          required: true
